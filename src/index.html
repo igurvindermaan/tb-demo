@@ -3,12 +3,597 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+  <title>True Botanicals</title>
   <meta name="description" content="A light foundation for your next frontend project based on webpack.">
 </head>
 <body>
-  <img src="images/webpack.png" alt="Webpack logo">
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+ <header>
+     <div class="header-wrap">
+       <div class="container">
+        <div class="header-content">
+          <div class="header__left">
+            <div class="hamburger">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+            <ul class="header-nav">
+              <li class="header-nav__item shop-menu-link"><a href="#" class="header-nav__link header-nav__link--caret">SHOP <img src="./images/Icons/caret-down.svg"></a>
+                <div class="mega-menu-overlay shop-menu ">
+
+                  <div class="mega-menu-wrap">
+                    <div class="container">
+                      <ul class="mega-menu">
+                        <li class="mega-menu__block">
+                         <ul class="mega-menu__nav mega-menu__nav--bold">
+                          <li class="mega-menu__item"><a href="#">Shop All</a></li>
+                          <li class="mega-menu__item"><a href="#">Subscribe & Save 15%</a></li>
+                          <li class="mega-menu__item"><a href="#">Best Sellers</a></li>
+                          <li class="mega-menu__item"><a href="#">New Arrivals</a></li>
+                          <li class="mega-menu__item"><a href="#">CBD Beauty</a></li>
+                         </ul>
+                        </li>
+                        <li class="mega-menu__block">
+                          <a href="#" class="mega-menu__nav-title"> SHOP BY CATEGORY</a>
+                          <ul class="mega-menu__nav">
+                           <li class="mega-menu__item"><a href="#">Cleansers</a></li>
+                           <li class="mega-menu__item"><a href="#">Face Masks</a></li>
+                           <li class="mega-menu__item"><a href="#">Face Oils</a></li>
+                           <li class="mega-menu__item"><a href="#">Hair & Body</a></li>
+                           <li class="mega-menu__item"><a href="#">Mists & Toners</a></li>
+                           <li class="mega-menu__item"><a href="#">Serums & Treatments</a></li>
+                           <li class="mega-menu__item"><a href="#">Trial Size</a></li>
+                           <li class="mega-menu__item"><a href="#">Skincare Sets & Kits</a></li>
+                           <li class="mega-menu__item"><a href="#">Gift Card</a></li>
+                          </ul>
+                         </li>
+                         <li class="mega-menu__block">
+                          <a href="#" class="mega-menu__nav-title"> SHOP BY CONCERN</a>
+                          <ul class="mega-menu__nav">
+                           <li class="mega-menu__item"><a href="#">Anti Aging</a></li>
+                           <li class="mega-menu__item"><a href="#">Dryness</a></li>
+                           <li class="mega-menu__item"><a href="#">Breakouts / Blemishes</a></li>
+                           <li class="mega-menu__item"><a href="#">Hyperpigmentation</a></li>
+                           <li class="mega-menu__item"><a href="#">Rosacea</a></li>
+                          </ul>
+                         </li>
+                         <li class="mega-menu__block">
+                          <a href="#" class="mega-menu__nav-title"> SHOP BY COLLECTION</a>
+                          <ul class="mega-menu__nav">
+                           <li class="mega-menu__item"><a href="#">Renew: For Anti-Aging & Dry Skin</a></li>
+                           <li class="mega-menu__item"><a href="#">Clear: For Blemish-Prone Skin</a></li>
+                           <li class="mega-menu__item"><a href="#">Calm: For Ultra-Sensitive Skin</a></li>
+                           <li class="mega-menu__item"><a href="#">Pregnancy: For Expectant Mothers</a></li>
+                           <li class="mega-menu__item"><a href="#">Olivia Wilde's Skincare Regimen</a></li>
+                           <li class="mega-menu__item"><a href="#">Mother's Day Shop</a></li>
+                           <li class="mega-menu__item"><a href="#">Decompress: CBD Beauty</a></li>
+    
+                          </ul>
+                         </li>
+                         <li class="mega-menu__block">
+                          <div class="mega-menu__showcase">
+                            <img class="mega-menu__showcase-img" src="./images/mega.png">
+                            <p class="mega-menu__showcase-text">Shop our new CBD500 Anti-Inflammaging Face Oil to soothe stressed skin for a gorgeous, youthful glow.</p>
+                            <a href="#" class="mega-menu__showcase-link">SHOP NOW</a>
+                          </div>
+                         </li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+                  
+                </div>
+              </li>
+               <li class="header-nav__item"> <a href="#" class="header-nav__link">SUBSCRIBE</a></li>
+               <li class="header-nav__item"> <a href="#" class="header-nav__link header-nav__link--caret">SKINCARE QUIZ <img src="./images/Icons/caret-down.svg"></a></li>
+            </ul>
+            <div class="mob-nav-overlay">
+              <div class="mob-nav">
+                <ul class="mob-nav-list mob-nav-list-top">
+                  <li class="mob-nav__item-parent"><a href="#" class="mob-nav__item-parent-link">SHOP</a>
+                      <ul class="mob-nav-list__child">
+                        <li class="mob-nav-list__item-child">
+                          <a href="#" class="mob-nav-list__item-child-link">Shop All</a>
+                        </li>
+                        <li class="mob-nav-list__item-child">
+                          <a href="#" class="mob-nav-list__item-child-link">Subscribe & Save 15%</a>
+                        </li> 
+                        <li class="mob-nav-list__item-child">
+                          <a href="#" class="mob-nav-list__item-child-link">Best Sellers</a>
+                        </li> 
+                        <li class="mob-nav-list__item-child">
+                          <a href="#" class="mob-nav-list__item-child-link">New Arrivals</a>
+                        </li>
+                        <li class="mob-nav-list__item-child">
+                          <a href="#" class="mob-nav-list__item-child-link">CBD Beauty</a>
+                        </li>
+                        <li class="mob-nav-list__item-child">
+                          <a href="#" class="mob-nav-list__item-child-link shop-by-category-mob">Shop by Category <img src="./images/chevron-right.svg"></a>
+                          <div class="mob-subnav shop-by-category-subnav">
+                            <a href="#" class="mob-subnav__back shop-by-back"><img src="./images/chevron-left.svg">Back</a>
+                            <a href="#" class="mob-subnav__title">Shop by Category</a>
+                            <ul class="mob-subnav__list ">
+                              <li class="mob-subnav__item"><a href="#" class="mob-subnav__link">Cleansers</a></li>
+                              <li class="mob-subnav__item"><a href="#" class="mob-subnav__link">Face Masks</a></li>
+                              <li class="mob-subnav__item"><a href="#" class="mob-subnav__link">Face Oils</a></li>
+                              <li class="mob-subnav__item"><a href="#" class="mob-subnav__link">Hair & Body</a></li>
+                              <li class="mob-subnav__item"><a href="#" class="mob-subnav__link">Mists & Toners</a></li>
+                              <li class="mob-subnav__item"><a href="#" class="mob-subnav__link">Serums & Toners</a></li>
+                              <li class="mob-subnav__item"><a href="#" class="mob-subnav__link">Trial Size</a></li>
+                              <li class="mob-subnav__item"><a href="#" class="mob-subnav__link">Skincare Sets & Kits</a></li>
+                              <li class="mob-subnav__item"><a href="#" class="mob-subnav__link">Gift Card</a></li>
+                            </ul>
+                          </div>
+                          </a>
+                        </li>
+                        <li class="mob-nav-list__item-child">
+                          <a href="#" class="mob-nav-list__item-child-link">Shop by Concern <img src="./images/chevron-right.svg"></a>
+                        </li>
+                        <li class="mob-nav-list__item-child">
+                          <a href="#" class="mob-nav-list__item-child-link">Shop by Collection <img src="./images/chevron-right.svg"></a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li class="mob-nav__item-parent"><a href="#" class="mob-nav__item-parent-link">SUBSCRIBE</a></li>
+                  <li class="mob-nav__item-parent"><a href="#" class="mob-nav__item-parent-link">SKINCARE QUIZ</a></li>
+                  <li class="mob-nav__item-parent"><a href="#" class="mob-nav__item-parent-link">MOTHER'S DAY SHOP</a></li>
+  
+                </ul>
+                <ul class="mob-nav-list">
+                  <li class="mob-nav__item-parent"><a href="#" class="mob-nav__item-parent-link">ABOUT US</a></li>
+                  <li class="mob-nav__item-parent"><a href="#" class="mob-nav__item-parent-link">LOGIN</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="header__middle">
+              <h1 class="logo">
+                <a href="#">
+                <img src="./images/logo.svg" class="header-logo">
+                </a>
+              </h1>
+          </div>
+          <div class="header__right">
+            <ul class="header-nav">
+              <li class="header-nav__item header-nav__item--for-desktop"><a href="#" class="header-nav__link ">ABOUT US</a></li>
+              <li class="header-nav__item"><a href="#" class="header-nav__link header-nav__link-icon "><img src="./images/Icons/magnifier.svg"></a></li>
+              <li class="header-nav__item header-nav__item--for-desktop"><a href="#" class="header-nav__link header-nav__link-icon "><img src="./images/Icons/account.svg"></a></li>
+              <li class="header-nav__item"><a href="#" class="header-nav__link header-nav__link-icon" ><img src="./images/Icons/bag.svg"></a></li>
+            </ul>
+          </div>
+        </div>
+       </div>
+     </div>
+ </header>
+<section class="hero">
+  <div class="container">
+    <div class="hero-wrap">
+      <div class="hero-banner">
+        <img class="hero__banner-img" src="./images/Bitmap@3x.jpg">
+        <div class="hero__product-img">
+          <img src="./images/product_image.png">
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-content-inner">
+          <p class="hero-content__sub-heading">PURE RADIANCE SUGAR SCRUB</p>
+          <h3 class="hero-content__heading">Exfoliating and glow-inducing</h3>
+          <div class="hero-content__btns">
+            <a href="#" class="btn-primary btn-primary--orange">SHOP NOW</a>
+            <a href="#" class="btn-primary ">TAKE SKIN QUIZ</a>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+<section class="our-rituals">
+    <div class="section-heading-wrap">
+      <h3 class="section-heading">
+        Our Rituals
+      </h3>
+      <a href="#" class="link-decorated">SHOP BESTSELLERS</a>
+    </div>
+    <div class="our-rituals__content">
+      <div class="products-showcase-wrap">
+        <div class="product-showcase-card">
+          <div class="product-showcase-card__img">
+            <img src="./images/radiance-oil.jpg">
+          </div>
+          <div class="product-showcase-card__content">
+              <div class="product-showcase-card__ratings"><img src="./images/star.png">
+                <p class="product-showcase-card__review-count">1</p>
+              </div>
+              <div class="product-showcase-card__category"><p class="product-showcase-card__effect">clear</p> <p class="product-showcase-card__name">PURE RADIANCE OIL</p></div>
+              <p class="product-showcase-card__details">
+                Skin-transforming moisturizing face oil.
+               </p>
+               <a href="#" class="link-decorated bold">ADD TO BAG <span class="product-showcase-card__price">$110</span></a>
+          </div>
+        </div>
+        <div class="product-showcase-card">
+          <div class="product-showcase-card__img">
+            <img src="./images/nourishing.png">
+          </div>
+          <div class="product-showcase-card__content">
+              <div class="product-showcase-card__ratings"><img src="./images/star.png">
+                <p class="product-showcase-card__review-count">419</p>
+              </div>
+              <div class="product-showcase-card__category"><p class="product-showcase-card__effect">clear</p> <p class="product-showcase-card__name">NOURISHING CLEANSER</p></div>
+              <p class="product-showcase-card__details">
+                Gentle balance for oily and breakout-prone skin.
+               </p>
+               <a href="#" class="link-decorated bold">ADD TO BAG <span class="product-showcase-card__price">$48</span></a>
+          </div>
+        </div>
+        <div class="product-showcase-card">
+          <div class="product-showcase-card__img">
+            <img src="./images/serum.png">
+          </div>
+          <div class="product-showcase-card__content">
+              <div class="product-showcase-card__ratings"><img src="./images/star.png">
+                <p class="product-showcase-card__review-count">260</p>
+              </div>
+              <div class="product-showcase-card__category"><p class="product-showcase-card__effect">renew</p> <p class="product-showcase-card__name">CHEBULA ACTIVE IMMUNITY SERUM</p></div>
+              <p class="product-showcase-card__details">
+                Prevent, protect and correct all signs of aging.
+               </p>
+               <a href="#" class="link-decorated bold">ADD TO BAG <span class="product-showcase-card__price">$140</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="our-promise">
+<div class="our-promise-content">
+  <div class="our-promise-img">
+    <img src="./images/olivia.png">
+    <p class="our-promise-img__title">Olivia Wilde, Actor & Filmmaker</p>
+  </div>
+  <div class="our-promise-right">
+    <h3 class="our-promise__heading">
+      Get gorgeous skin with natural-biocompatible skincare that works.
+    </h3>
+    <ul class="our-promise__features">
+      <li class="our-promise__features-item">
+        <div class="our-promise__features-img">
+          <img src="./images/mandala.svg">
+
+        </div>
+        <h4 class="our-promise__features-title">
+          NATURAL-BIOCOMAPTIBLE
+        </h4> 
+        <a href="#" class="link-decorated">LEARN MORE</a>
+      </li>
+      <li class="our-promise__features-item">
+        <div class="our-promise__features-img">
+          <img src="./images/microscope.svg">
+        </div>
+        <h4 class="our-promise__features-title">
+          CLINICALLY PROVEN
+        </h4> 
+        <a href="#" class="link-decorated">LEARN MORE</a>
+      </li>
+      <li class="our-promise__features-item">
+        <div class="our-promise__features-img">
+          <img src="./images/recycle.svg">
+        </div>
+        <h4 class="our-promise__features-title">
+          CLEAN & SUSTAINABLE
+        </h4> 
+        <a href="#" class="link-decorated">LEARN MORE</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+</section>
+<section class="ingredients">
+  <div class="ingredients-inner">
+    <div class="ingredients-heading-wrap">
+      <h3 class="ingredients__heading">Liberate your glow with</h3>
+      <h3 class="ingredients__heading"><span class="ingredients__heading--cursive ">wildly</span> clean ingredients</h3>
+    </div>
+    <div class="ingredients__content">
+      <div class="ingredients__content-left">
+        <div class="ingredients__features">
+          <ul class="ingredients__features-list">
+            <li class="ingredients__features-item">100% NON TOXIC</li>
+            <li class="ingredients__features-item">MADE SAFE CERTIFIED</li>
+            <li class="ingredients__features-item">30-DAY GUARANTEE</li>
+          </ul>
+
+        </div>
+        <div class="ingredients-slider swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="ingredients-slide swiper-slide">
+              <div class="ingredients-slider-card ingredients-slider-card--sm">
+                <img src="./images/elderberry.png">
+                <div class="ingredients-slider-card__content">
+                  <p class="ingredients-slider-card__details">
+                   <span>ELDERBERRY</span> has a well documented history of restoring health and aiding in longevity, it helps eliminate toxins and is abundant in Vitamin A, C, and E
+                  </p>
+                </div>
+            </div>
+            <div class="ingredients-slider-card ingredients-slider-card--lg">
+              <img src="./images/chebula.png">
+              <div class="ingredients-slider-card__content">
+                <p class="ingredients-slider-card__details"><span>CHEBULA</span> helps to stimulate collagen production for smoother skin that feels strong.</p>
+              </div>
+            </div>
+            </div>
+            <div class="ingredients-slide swiper-slide">
+              <div class="ingredients-slider-card ingredients-slider-card--sm">
+                <img src="./images/elderberry.png">
+                <div class="ingredients-slider-card__content">
+                  <p class="ingredients-slider-card__details">
+                   <span>ELDERBERRY</span> has a well documented history of restoring health and aiding in longevity, it helps eliminate toxins and is abundant in Vitamin A, C, and E
+                  </p>
+                </div>
+            </div>
+            <div class="ingredients-slider-card ingredients-slider-card--lg">
+              <img src="./images/chebula.png">
+              <div class="ingredients-slider-card__content">
+                <p class="ingredients-slider-card__details"><span>CHEBULA</span> helps to stimulate collagen production for smoother skin that feels strong.</p>
+              </div>
+            </div>
+            </div>
+            <div class="ingredients-slide swiper-slide">
+              <div class="ingredients-slider-card ingredients-slider-card--sm">
+                <img src="./images/elderberry.png">
+                <div class="ingredients-slider-card__content">
+                  <p class="ingredients-slider-card__details">
+                   <span>ELDERBERRY</span> has a well documented history of restoring health and aiding in longevity, it helps eliminate toxins and is abundant in Vitamin A, C, and E
+                  </p>
+                </div>
+            </div>
+            <div class="ingredients-slider-card ingredients-slider-card--lg">
+              <img src="./images/chebula.png">
+              <div class="ingredients-slider-card__content">
+                <p class="ingredients-slider-card__details"><span>CHEBULA</span> helps to stimulate collagen production for smoother skin that feels strong.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="ingredients__content-right">
+        <div class="ingredients__content-right-card">
+          <img src="./images/immunity.png">
+          <p class="ingredients__content-right-card-title">CHEBULA ACTIVE IMMUNITY SERUM</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-controls">
+      <div class="swiper-pagination">
+      </div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+  </div>
+
+</section>
+<section class="clinically-proven">
+  <div class="section-heading-wrap section-heading-common">
+    <h3 class="section-heading">
+      Clinically Proven Results 
+    </h3>
+    <p class="section-subheading"> Our clean and sustainable products are clinically proven to work at the highest standards.</p>
+    <a href="#" class="link-decorated">LEARN MORE</a>
+  </div>
+  <div class="clinically-proven-slider-outer">
+    <div class="clinically-proven-slider-wrap swiper  clinicallySwiper ">
+      <div class="swiper-wrapper">
+        <div class="clinically-proven-card-outer swiper-slide">
+          <div class="clinically-proven-card">
+            <div class="clinically-proven-card__img-block clinically-proven-card__img-block--oil">
+
+
+              <img src="./images/radiance@3x.png">
+
+              <p class="clinically-proven-card__title">Pure Radiance Oil</p>
+            </div>
+            <div class="clinically-proven-card__details">
+                <div class="clinically-proven-card__text-block">
+                  <p class="clinically-proven-card__percentage">97%</p>
+                  <p class="clinically-proven-card__feature">of women aged 30 - 60 showed less fine lines and wrinkles after 4 weeks</p>
+                </div>
+                <div class="clinically-proven-card__text-block">
+                  <p class="clinically-proven-card__percentage">22%</p>
+                  <p class="clinically-proven-card__feature">of women aged 30 - 60 showed less fine lines and wrinkles after 4 weeks</p>
+                </div>
+                <a href="#" class="link-decorated">SHOP NOW</a>
+            </div>
+          </div>
+
+        </div>
+          <div class="clinically-proven-card-outer swiper-slide">
+            <div class="clinically-proven-card">
+              <div class="clinically-proven-card__img-block clinically-proven-card__img-block--serum">
+
+
+                <img src="./images/serum@3x.png">
+
+                <p class="clinically-proven-card__title">Repair Serum</p>
+              </div>
+              <div class="clinically-proven-card__details">
+                  <div class="clinically-proven-card__text-block">
+                    <p class="clinically-proven-card__percentage">97%</p>
+                    <p class="clinically-proven-card__feature">of women aged 30 - 60 showed less fine lines and wrinkles after 4 weeks</p>
+                  </div>
+                  <div class="clinically-proven-card__text-block">
+                    <p class="clinically-proven-card__percentage">22%</p>
+                    <p class="clinically-proven-card__feature">of women aged 30 - 60 showed less fine lines and wrinkles after 4 weeks</p>
+                  </div>
+                  <a href="#" class="link-decorated">SHOP NOW</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="clinically-proven-card-outer swiper-slide">
+            <div class="clinically-proven-card">
+              <div class="clinically-proven-card__img-block clinically-proven-card__img-block--mask">
+
+
+                <img src="./images/mask@3x.png">
+
+                <p class="clinically-proven-card__title">Moisture Lock Overnight Mask</p>
+              </div>
+              <div class="clinically-proven-card__details">
+                  <div class="clinically-proven-card__text-block">
+                    <p class="clinically-proven-card__percentage">97%</p>
+                    <p class="clinically-proven-card__feature">of women aged 30 - 60 showed less fine lines and wrinkles after 4 weeks</p>
+                  </div>
+                  <div class="clinically-proven-card__text-block">
+                    <p class="clinically-proven-card__percentage">22%</p>
+                    <p class="clinically-proven-card__feature">of women aged 30 - 60 showed less fine lines and wrinkles after 4 weeks</p>
+                  </div>
+                  <a href="#" class="link-decorated">SHOP NOW</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="clinically-proven-card-outer swiper-slide">
+            <div class="clinically-proven-card">
+              <div class="clinically-proven-card__img-block clinically-proven-card__img-block--mask ">
+
+                <img src="./images/mask@3x.png">
+                <p class="clinically-proven-card__title">Moisture Lock Overnight Mask</p>
+              </div>
+              <div class="clinically-proven-card__details">
+                  <div class="clinically-proven-card__text-block">
+                    <p class="clinically-proven-card__percentage">97%</p>
+                    <p class="clinically-proven-card__feature">of women aged 30 - 60 showed less fine lines and wrinkles after 4 weeks</p>
+                  </div>
+                  <div class="clinically-proven-card__text-block">
+                    <p class="clinically-proven-card__percentage">22%</p>
+                    <p class="clinically-proven-card__feature">of women aged 30 - 60 showed less fine lines and wrinkles after 4 weeks</p>
+                  </div>
+                  <a href="#" class="link-decorated">SHOP NOW</a>
+              </div>
+            </div>
+
+          </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</section>
+ <footer>
+   <div class="footer-wrap">
+     <div class="footer-container">
+        <div class="footer__left">
+          <a href="#" class="footer__logo"><img src="./images/footer-logo.svg"></a>
+        </div>
+        <div class="footer__right">
+          <div class="footer-social__wrap">
+             <div class="footer-newsletter">
+               <h3 class="footer-newsletter__title footer-title">
+                 Sign Up for Offers, Product News, and Tips
+               </h3>
+               <form class="footer-newsletter__form"> 
+                 <div class="footer-newsletter__form-input-block">
+                  <input type="text" placeholder="Enter your phone or email" class="footer-newsletter__input">
+                  <input type="submit" value="SEND" class="footer-newsletter__submit">
+                 </div>
+              
+                 <p class="footer-newsletter__text">
+                  By subscribing to True Botanicals Text Alerts you consent to receive a varying number of marketing messages via automated technology and agree to the terms and conditions. Message and data rates may apply. Reply HELP for help or STOP to opt-out.
+                 </p>
+               </form>
+              
+             </div>
+             <div class="footer-social-icons">
+              <h3 class="footer-title"> Follow Us</h3>
+              <ul class="footer-social-icons__list">
+                <li><a href="#"><img src="./images/ig.svg"></a></li>
+                <li><a href="#"><img src="./images/fb.svg"></a></li>
+                <li><a href="#"><img src="./images/pt.svg"></a></li>
+                <li><a href="#"><img src="./images/tw.svg"></a></li>
+                <li><a href="#"><img src="./images/yt.svg"></a></li>
+              </ul>
+             </div>
+          </div>
+          <div class="footer-nav">
+            <ul class="footer-nav__parent">
+              <li  class="footer-nav__parent-block footer-nav__parent-block--half">
+                <a href="#" class="footer-title accordion-header">Shop <img class="accordion-caret" src="./images/chevron-down.svg"></a>
+                <ul class="footer-nav__child footer-nav__child--shop">
+                  <li><a href="#" class="footer-links">Cleansers</a></li>
+                  <li><a href="#" class="footer-links">Face Masks</a></li>
+                  <li><a href="#" class="footer-links">Face Oils</a></li>
+                  <li><a href="#" class="footer-links">Hair & Body</a></li>
+                  <li><a href="#" class="footer-links">Mists & Toners</a></li>
+                  <li><a href="#" class="footer-links">Serums</a></li>
+                  <li><a href="#" class="footer-links">Cleansers</a></li>
+                  <li><a href="#" class="footer-links">Face Masks</a></li>
+                  <li><a href="#" class="footer-links">Face Oils</a></li>
+                  <li><a href="#" class="footer-links">Hair & Body</a></li>
+                  <li><a href="#" class="footer-links">Mists & Toners</a></li>
+                </ul>
+              </li>
+              <li class="footer-nav__parent-block footer-nav__parent-block--quarter">
+                <a href="#" class="footer-title accordion-header">About Us <img class="accordion-caret" src="./images/chevron-down.svg"></a>
+                <ul class="footer-nav__child">
+                  <li><a href="#" class="footer-links">Our Story</a></li>
+                  <li><a href="#" class="footer-links">Ingredients</a></li>
+                  <li><a href="#" class="footer-links">Research</a></li>
+                  <li><a href="#" class="footer-links">Press</a></li>
+                  <li><a href="#" class="footer-links">Read Our Blog</a></li>
+                  <li><a href="#" class="footer-links">Careers</a></li>
+                  <li><a href="#" class="footer-links">Refer A Friend</a></li>
+                  <li><a href="#" class="footer-links">Affiliate</a></li>
+                </ul>
+              </li>
+              <li class="footer-nav__parent-block footer-nav__parent-block--quarter">
+                <a href="#" class="footer-title accordion-header">Customer Service <img class="accordion-caret" src="./images/chevron-down.svg"></a>
+                <ul class="footer-nav__child">
+                <li><a href="#" class="footer-links">Contact Us</a></li>
+                  <li><a href="#" class="footer-links">Shipping & Delivery</a></li>
+                  <li><a href="#" class="footer-links">Returns</a></li>
+                  <li><a href="#" class="footer-links">FAQs</a></li>
+                  <li><a href="#" class="footer-links">30-Day Guarantee</a></li>
+                  <li><a href="#" class="footer-links">Opt-Out Guide</a></li>
+              </li>
+              </ul>
+            </ul>
+          </div>
+          <div class="footer-terms">
+            <ul class="footer-terms__list">
+           <li>
+           <p class="footer-links">@ 2021 True Botanicals. All Rights Reserved.</p>
+           </li>
+           <li>
+           <a href="#" class="footer-links">Terms of Use</a>
+           </li>
+           <li>
+           <a href="#" class="footer-links">Privacy Policy</a>
+           </li>
+            </ul>
+          </div>
+        </div>
+     </div>
+   </div>
+ </footer>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
 </body>
 </html>

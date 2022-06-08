@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="76px" viewBox="0 0 52 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mark</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D4A163" offset="0%"></stop>
+            <stop stop-color="#E2BB9B" offset="13.3096762%"></stop>
+            <stop stop-color="#E8C8B0" offset="25.8496399%"></stop>
+            <stop stop-color="#EACDBA" offset="38.235199%"></stop>
+            <stop stop-color="#F4E5D0" offset="50.7906934%"></stop>
+            <stop stop-color="#F8EBD8" offset="63.162056%"></stop>
+            <stop stop-color="#EED7C5" offset="75.7639923%"></stop>
+            <stop stop-color="#E8C8B2" offset="88.1793747%"></stop>
+            <stop stop-color="#E1B894" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer/1920" transform="translate(-216.000000, -120.000000)" fill="url(#linearGradient-1)">
+            <path d="M268,134 L268,122.67569 C268,121.198167 266.766967,120 265.245288,120 L250,120 C262.523095,122.360194 268,134 268,134 L268,134 Z M234,120 L218.755177,120 C217.233947,120 216,121.198167 216,122.67569 L216,134 C216,134 221.477168,122.360194 234,120 L234,120 Z M253,180 C257.253667,180 265,177.36387 265,167.644296 C265,159.736578 258.530643,157.100785 258.530643,157.100785 C258.530643,157.100785 263.596808,154.786904 263.596808,147.845264 C263.596808,139.31388 256.796932,137 253.063277,137 C253.063277,137 257.063501,140.461076 257.063501,146.584491 C257.063501,152.707907 254.130227,157.100785 254.130227,157.100785 C254.130227,157.100785 257.730261,160.960724 257.730261,167.749809 C257.730261,174.538893 253,180 253,180 L253,180 Z M246,120 L238,120 L238,187.889746 C238,192.368887 241.581568,196 246,196 L246,120 Z M230,180 L230,180 C226.134157,180 223,176.988204 223,173.272875 L223,137 L223.000349,137 C226.865843,137 230,140.011796 230,143.72679 L230,180 Z" id="Mark"></path>
+        </g>
+    </g>
+</svg>

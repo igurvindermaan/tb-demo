@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/12x12/chevron-left</title>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-320---New---Shop-by-Category" transform="translate(-19.000000, -97.000000)">
+            <g id="modal-menu" transform="translate(0.000000, 20.000000)">
+                <g id="Icons/12x12/chevron-left" transform="translate(16.000000, 76.000000)">
+                    <rect id="Box" x="0" y="0" width="12" height="12"></rect>
+                    <polygon id="Path" fill="#2E261C" points="3 6 8.25 11 9 10.2857143 4.5 6 9 1.71428571 8.25 1"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

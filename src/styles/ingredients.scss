@@ -1,0 +1,141 @@
+/* stylelint-disable */
+
+.ingredients{
+    padding-top: 185px;
+    padding-bottom: 128px;
+    background-color: #F3DBD3;
+
+    &-heading-wrap{
+        padding-left: 65px;
+        z-index: 2;
+        position: relative;
+        margin-bottom: -88px;
+    }
+    &__heading{
+        font-size: 80px;
+        letter-spacing: 2.5px;
+        font-family: ivy;
+        line-height: 1.5;
+  
+
+        &:last-child{
+            padding-left: 80px;
+        }
+        &--cursive{
+            font-family: juniper;
+            position: relative;
+            font-size: 104px;
+            &::after{
+                content: '';
+                background-image: url("../images/line.svg");
+                width: 244px;
+                height: 10px;
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                z-index: -1;
+            }
+        }
+    }
+    &__content{
+        display: flex;
+        justify-content: flex-end;
+        &-left{
+            padding-left: 112px;
+            width: calc(100% - 592px);
+
+        }
+    }
+    
+    &__features{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 125px;
+        padding-bottom: 100px;
+        padding-left: 177px;
+        &-item{
+            font-size: 16px;
+            letter-spacing: 2px;
+            line-height: 2;
+            font-weight: 700;
+        }
+    }
+    &__content-right{
+        z-index: 1;
+        &-card{
+            max-width: 592px;
+            &-title{
+                font-size: 16px;
+                line-height: 2;
+                letter-spacing: 2.5px;
+                font-weight: 600;
+                text-align: center;
+                margin-top: 13px;
+            }
+        }
+    }
+
+
+&-slider {
+    margin-right: -40px;
+    &-card{
+        &__content{
+            padding: 13px 65px 0px 24px;
+
+        }
+        &__details{
+            line-height: 1.7;
+            font-size: 13px;
+            font-weight: lighter;
+            letter-spacing: 1px;
+            span{
+                font-weight: 700;
+
+            }
+        }
+    }
+    &-card--sm{
+        max-width: 368px;
+    }
+    &-card--lg{
+        max-width: 448px;
+        margin-top: 48px;
+     margin-left: -40px;
+
+    }
+}
+&-slide{
+    display: flex;
+}
+.swiper {
+    width: auto;
+    height: auto;
+    margin-left: inherit;
+  }
+  
+.swiper-controls{
+    padding-top:  64px;
+    margin: 0 auto;
+    max-width: 640px;    
+}
+.swiper-scrollbar{
+    max-width: 640px;
+    height: 5px;
+    background: #fff;
+}
+.swiper-pagination{
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 3px;
+    position: static;
+    width: 100%;
+    height: 30px;
+}
+.swiper-scrollbar-drag{
+    width: 213px !important;
+    background: black;
+}
+.swiper-slide{
+    transition: 0.3s all ease !important;
+}
+}

@@ -17,6 +17,9 @@ module.exports = merge(common, {
     client: {
       logging: 'error',
     },
+    watchFiles: ["./src/*"], // string [string] object [object]
+    port: 3000,
+    open: true,
     hot: true,
   },
   plugins: [
@@ -53,6 +56,7 @@ module.exports = merge(common, {
           'sass-loader',
         ],
       },
+      
     ],
   },
 });

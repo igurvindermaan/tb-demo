@@ -1,0 +1,118 @@
+/* stylelint-disable */
+
+.clinically-proven{
+padding-top: 125px;
+padding-bottom: 120px;
+&-slider-outer{
+    padding-top: 110px;
+}
+
+&-card {
+    max-width: 528px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        font-size: 14px;
+        line-height: 1.7;
+        font-weight: lighter;
+        margin-top: 50px;
+        padding: 0px 80px;
+        margin-left: -39px;
+    }
+    &__img-block{
+        width: 302px;
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            transition: 0.3s all ease;
+        }
+    }
+   &__img-block--oil{
+    img{
+        max-width: 68.5px;
+        
+    }
+    }
+    &__img-block--mask{
+        img{
+        max-width: 115px;
+    
+
+        }
+    }
+    &__img-block--serum{
+        img{
+        max-width: 68.5px;
+
+
+        }
+    }
+   
+
+
+    &__details{
+        width: 195px;
+        padding-left: 18px;
+        display: none;
+    }
+    &__percentage{
+        font-size: 80px;
+        letter-spacing: 2.5px;
+        line-height: 1;
+        font-weight: lighter;   
+        font-family: ivy;
+        margin-bottom: 14px;
+
+    }
+    &__feature{
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: lighter;
+    }
+    .link-decorated{
+        margin-top: 40px;
+    }
+    &__text-block{
+        &:first-child{
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.swiper-slide-active{
+    .clinically-proven-card{
+        justify-content: inherit;
+        align-items: inherit;
+        &__img-block--oil{
+            img{
+                max-width: 160px;
+
+                
+                }
+        }
+        &__img-block--mask{
+            img{
+            max-width: 180px;
+    
+            }
+        }
+        &__img-block--serum{
+            img{
+            max-width: 180px;
+    
+            }
+        }
+
+    }
+    .clinically-proven-card__details{
+        display: block;
+    }
+
+
+}
+}
